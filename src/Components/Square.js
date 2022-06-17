@@ -19,10 +19,8 @@ const Square = ({switchTurn, id, value, gameOver}) => {
     }
 
     return <img
-        className="inline-block bg-gray-100 m-2 rounded shadow-lg hover:bg-sky-300 active:bg-red-300"
+        className="inline-block bg-gray-100 m-2 rounded shadow-lg hover:bg-sky-300 active:bg-red-300 w-16 sm:w-32 lg:w-44"
         src={mark}
-        width="200"
-        height="200"
         onClick={onClickHandler}
         alt="bad"/>
 };
