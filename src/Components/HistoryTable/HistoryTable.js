@@ -1,7 +1,6 @@
 import SmallGrid from "./SmallGrid";
 
 const HistoryTable = ({history}) => {
-    console.log(history)
     return (
         <div className="flex justify-center mt-12 font-thin">
             <table
@@ -15,10 +14,10 @@ const HistoryTable = ({history}) => {
                 </thead>
                 <tbody>
                 {history.map((item, i) => {
-                    return <tr className="h-12 odd:bg-gray-300 even:bg-gray-200">
+                    return <tr key={i} className="h-12 odd:bg-gray-300 even:bg-gray-200">
                         <td>{i + 1}</td>
                         <td>{item.winner}</td>
-                        <SmallGrid grid={item.grid}/>
+                        <td><SmallGrid grid={item.grid}/></td>
                     </tr>
                 })}
                 </tbody>

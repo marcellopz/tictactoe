@@ -29,7 +29,7 @@ const GameForm = ({formResponseHandler}) => {
                     </select>
                 </div>
                 <div className="block text-right">
-                    <button className="rounded-md p-2 bg-blue-300 w-3/12 m-2" type="submit">Submit</button>
+                    <button className="rounded-md p-2 bg-blue-300 w-3/12 m-2" type="submit">Start</button>
                 </div>
             </div>
         </form>

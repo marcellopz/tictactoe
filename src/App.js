@@ -85,7 +85,6 @@ function App() {
                 grid: grid
             }]
         })
-        console.log(w)
     }
 
     const resetGame = () => {
@@ -111,7 +110,7 @@ function App() {
                 name: p2Name === '' ? "Player 2" : p2Name,
                 symbol: 'o'
             },
-            numberOfRounds: nOfRounds,
+            numberOfRounds: parseInt(nOfRounds),
         })
 
         setTurn(Math.random() > 0.5)
