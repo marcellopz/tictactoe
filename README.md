@@ -4,4 +4,4 @@
 
 Applying first react concepts to a small project
 
-live link: https://zan69.github.io/tictactoe/
+live link: https://marcellopz.github.io/tictactoe/
